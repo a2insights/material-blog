@@ -19,7 +19,7 @@ class MaterialHasblogServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/public/assets' => public_path('vendor/material/assets'),
-        ], 'clean/assets');
+        ], 'material/assets');
 
         $this->loadViewsFrom(__DIR__.'/resources/views', 'material');
     }
