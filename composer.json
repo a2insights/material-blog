@@ -1,9 +1,9 @@
 {
-    "name": "atiladanvi/material-hasblog",
-    "description": "This is a part of hasblog system",
+    "name": "a2ensite/material-blog",
+    "description": "This is a part of octo system",
     "keywords": [
-        "atiladanvi",
-        "material-hasblog"
+        "laravel",
+        "material-blog"
     ],
     "homepage": "https://github.com/atiladanvi/material-hasblog",
     "license": "MIT",
