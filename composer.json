@@ -5,7 +5,7 @@
         "laravel",
         "material-blog"
     ],
-    "homepage": "https://github.com/atiladanvi/material-hasblog",
+    "homepage": "https://github.com/a2insights/material-blog",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Atiladanvi\\MaterialHasblog\\": "src"
+            "Octo\\MaterialBlog\\": "src"
         }
     },
     "config": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Atiladanvi\\MaterialHasblog\\MaterialHasblogServiceProvider"
+                "Octo\\MaterialBlog\\MaterialBlogServiceProvider"
             ]
         }
     }

@@ -10,9 +10,9 @@
     <title>{{ $blog->name }}</title>
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link href="{{ asset('vendor/material/assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('vendor/octo/themes/material-blog/assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <!-- Material Kit CSS -->
-    <link href="{{ asset('vendor/material/assets/css/material-kit.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/octo/themes/material-blog/assets/css/material-kit.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -68,7 +68,7 @@
         </div>
     </div>
 </nav>
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{asset('vendor/material/assets/img/home-bg.jpg')}}')">
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('{{asset('vendor/octo/themes/material-blog/assets/img/home-bg.jpg')}}')">
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
@@ -152,12 +152,12 @@
         </div>
     </div>
 </footer>
-<script src="{{ asset('vendor/material/assets/vendor/jquery/jquery.min.js') }}"></script>
-<script src="{{ asset('vendor/material/assets/vendor/popper/popper.min.js') }}"></script>
-<script src="{{ asset('vendor/material/assets/vendor/bootstrap/js/bootstrap-material-design.min.js') }}"></script>
-<script src="{{ asset('vendor/material/assets/vendor/nouislider/nouislider.min.js') }}"></script>
+<script src="{{ asset('vendor/octo/themes/material-blog/assets/vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('vendor/octo/themes/material-blog/assets/vendor/popper/popper.min.js') }}"></script>
+<script src="{{ asset('vendor/octo/themes/material-blog/assets/vendor/bootstrap/js/bootstrap-material-design.min.js') }}"></script>
+<script src="{{ asset('vendor/octo/themes/material-blog/assets/vendor/nouislider/nouislider.min.js') }}"></script>
 <!-- Custom scripts for this template -->
-<script src="{{ asset('vendor/material/assets/js/material-kit.min.js') }}"></script>
+<script src="{{ asset('vendor/octo/themes/material-blog/assets/js/material-kit.min.js') }}"></script>
 </body>
 
 </html>

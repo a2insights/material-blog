@@ -1,10 +1,10 @@
 # MaterialBlog
 
-### A part of HasBlog system
+### A part of Octo system
 
 [![GitHub license](https://img.shields.io/github/license/gothinkster/laravel-realworld-example-app.svg)](https://raw.githubusercontent.com/gothinkster/laravel-realworld-example-app/master/LICENSE)
 
-> ### Template for the blog homepage to use whit HasBlog
+> ### Template for the blog homepage to use with Octo
 PRs and issues welcome!
 
 ## Installation
@@ -12,13 +12,13 @@ PRs and issues welcome!
 You can install the package via composer:
 
 ```bash
-composer require atiladanvi/material-hasblog
+composer require a2insights/material-hasblog
 ```
 
 ## Usage
 
 ``` php
-php artisan vendor:publish --provider="Atiladanvi\MaterialHasblog\MaterialHasblogServiceProvider"
+php artisan vendor:publish --provider="Octo\MaterialBlog\MaterialBlogServiceProvider"
 ```
 
 ### Changelog
@@ -35,7 +35,7 @@ If you discover any security related issues, please email atila.danvi@outlook.co
 
 ## Credits
 
-- [Atila SIlva](https://github.com/atiladanvi)
+- [Atila Silva](https://github.com/atiladanvi)
 - [All Contributors](../../contributors)
 
 ## License
